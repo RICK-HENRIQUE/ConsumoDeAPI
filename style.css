@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    font-family: 'Arvo', serif;
+    background-image: url(".//icons/nuvem.png");
+}
+h1{
+    background-color: #0088ffa7;
+}
+.card-header{
+    background-color: #3badb9;
+}
+.card{
+    background:linear-gradient(#04b4fc,#04b4fc);
+
+}
+
+.city{
+    font-size: 32px;
+    background-color:#04b4fc;
+    box-shadow:5px 6px #035f95;
+}
+
+.date {
+    font-size: 16px;
+    background-color:  #04a9fc;
+    box-shadow:5px 6px  #035f95;
+    
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    background-color: #0088ffa7;
+    box-shadow:5px 6px  #035f95;
+    cursor: pointer;
+
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px #87d1fc;
+}
+
+.weather{
+    background-color:#04b4fc;
+    font-size: 32px;
+    box-shadow:5px 6px  #035f95;
+}
+
+.low-high {
+    background-color:  #04a9fc;
+    font-size: 22px;
+    box-shadow:5px 6px  #035f95;
+}
+.card-footer{
+    background-color: #3badb9;
+    
+}
